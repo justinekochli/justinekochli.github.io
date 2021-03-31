@@ -1,4 +1,4 @@
-h1 { color: red;}
+
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap');
 
 
@@ -69,7 +69,7 @@ nav ul{
 nav li{
     float: left;
     width: 25%;
-    text-align: center;/ /
+    text-align: center; 
 }
 
 

@@ -1,1 +1,133 @@
-h1 { color: red;}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap');
+
+ 
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family:"anton"
+}
+
+ 
+
+
+ h2 { color:white;
+ font-size: 200%;}
+ 
+
+h2, h3, h4 {
+  font-family: "Lobster", sans-serif;
+  color: #004650;
+}
+
+ 
+
+body{
+  font-family: "jost";
+  background-image:url("https://ilovetissus.com/2355-home_default/simili-cuir-croco-noir.jpg")
+   
+    
+}
+
+p{ font-size: 20px;} 
+
+img{
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+ 
+div {
+  border: 3px #0B2345;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+
+.btn{
+  background-color: red;
+  color: white;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+
+.center{
+  text-align: center;
+}
+
+.card {
+  margin: 200px;
+  padding: 70px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 8px 13px 0px rgb(0 0 0 / 10%);
+  background-image:url("https://i.pinimg.com/564x/2c/8b/aa/2c8baa4c7947513ba1502c2cfb21d6c7.jpg")
+}
+
+
+.bg-guitar{
+  background-image: url('http://cdn.mos.cms.futurecdn.net/RiqLtHzdUwkLrJWKwyRcy3.jpg');
+  background-size: cover;
+}
+
+.slide-content {
+  margin: 0;
+  font-family: anton;
+  width: 100%;
+  height: 100vh;
+}
+.slide {
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slide1 {
+  background-image: url("http://www.pixbear.com/wp-content/uploads/2019/10/the_rolling_stones_quizz_1.jpg");
+}
+.slide2 {
+  background-image: url("https://www.ouifm.fr/wp-content/uploads/2017/12/foals-retour-studio.jpg");
+}
+.slide3 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/onestowatch-assets/blog_159468512750.jpg");
+}
+.slide4 {
+  background-image: url("https://img.huffingtonpost.com/asset/5c93530f220000c7001bf321.jpeg?ops=scalefit_630_noupscale");
+}
+.slide5 {
+  background-image: url("https://cdn.radiofrance.fr/s3/cruiser-production/2021/01/ba0c6fda-f7fa-4354-9986-a0e60596a55a/775x517_david_bowie_gettyimages-1270325558.jpg");
+}
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.slide-content span {
+  font-size: 2rem;
+  color: #fff;
+}
+
+#conteneur
+{
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    height: 250px; 
+  color: white;
+  padding:30px;
+  
+}
+.square {
+  height: 70px;
+  width: 70px;
+  background-color:  #004650;
+   border: 3px solid #008579;
+}
