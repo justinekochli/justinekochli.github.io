@@ -1,1 +1,85 @@
-h1 { color: red;}
+rolling stones 1 { color: red;}
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+.hero{
+  border: 1px solid grey;
+  height: 800px;
+  background-color: grey;
+  margin-top: 0em;
+  background-image: url("https://i.pinimg.com/564x/85/98/9d/85989d78f88d7ed136747444a19bb467.jpg");
+  background-size: cover;
+  background-position: up;}
+
+
+h1 {
+  color: #BD2000;
+  text-align: center;
+  font-family: fascinate;
+  font-size: 90px;  
+  text-shadow: 3px 2px 0px #fa1e0e;}
+
+h5 { color: black;
+text-align: center;
+font-size:15px}
+
+h2{
+  color: black;
+  text-align: center;
+  font-family: roboto;
+   font-size: 40px;
+}
+img{
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+
+.card {
+  margin: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 8px 13px 0px rgb(0 0 0 / 10%);
+  family-font:heebo; 
+  text-align: justify;}
+
+
+body{
+  font-family: "roboto";
+  background:#ece2e1;
+  margin:0px;
+  text-indent: 10px;
+}
+
+
+.mon-text {
+  padding:400px;
+  text-align:justify;
+  margin: 60px;
+  
+}
+
+
+  .bg-white{
+  background-image: url('https://i.pinimg.com/564x/93/85/46/938546e3adae9b30901125193a5c2661.jpg');
+  background-size: cover; colour:white;font-colour:white; 
+ padding: 10px; 
+ margin: 10px;
+ text-align:center;
+ margin-right:5px;
+ margin-bottom:3em;
+ margin-left:30;
+    }
+
+h7 { color: black;
+text-align: center;
+font-size:35px;
+font-family:roboto;}
+
+h5 { color: black;
+text-align: center;
+font-size:25px;
+font-family:roboto;}
